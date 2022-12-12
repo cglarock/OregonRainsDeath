@@ -1,0 +1,70 @@
+.bg {
+    background-color: steelblue;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.common {
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px;
+    border: 2px solid white;
+}
+
+.leftMenu {
+    top: 114px;
+    left: 5px;
+    width: 120px;
+    bottom: 1px;
+    border-bottom: 0pc;
+    border-right: 2px solid white;
+}
+
+.mainBody {
+    top: 114px;
+    left: 134px;
+    right: 750px;
+    bottom: 1px;
+    z-index: 1;
+    padding-right: 5px;
+    border-bottom: 0pc;
+}
+
+.RightMenu {
+    top: 114px;
+    right: 5px;
+    width: 750px;
+    bottom: 1px;
+    border-bottom: 0pc;
+    border-right: 2px solid white;}
+
+.subheader{
+    float: right;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.tab {
+    padding: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+}
